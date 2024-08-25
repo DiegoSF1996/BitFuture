@@ -13,7 +13,6 @@ class IndexController extends Controller
     {
         $dados = $this->obterDados();
         $mayer_multiple = $this->calcularMayerMultiple($dados);
-        
 
         $this->render('Index', ['mayer_multiple' => $mayer_multiple]);
     }

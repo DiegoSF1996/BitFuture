@@ -1,0 +1,1 @@
+https://rest.coinapi.io/v1/symbols/map/BINANCE?apikey=AFAE4C7D-4AB8-4FEF-A570-B0C05E83AD23&period_id=1DAY
