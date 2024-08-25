@@ -1,0 +1,26 @@
+[
+    {
+        "time_period_start": "2024-08-25T00:00:00.0000000Z",
+        "time_period_end": "2024-08-26T00:00:00.0000000Z",
+        "time_open": "2024-08-25T00:00:00.4980000Z",
+        "time_close": "2024-08-25T17:31:57.9170000Z",
+        "price_open": 64157.02,
+        "price_high": 64507.04,
+        "price_low": 63773.27,
+        "price_close": 64080.97,
+        "volume_traded": 8278.658119999986,
+        "trades_count": 856643
+    },
+    {
+        "time_period_start": "2024-08-24T00:00:00.0000000Z",
+        "time_period_end": "2024-08-25T00:00:00.0000000Z",
+        "time_open": "2024-08-24T00:00:00.1710000Z",
+        "time_close": "2024-08-24T23:59:59.9020000Z",
+        "price_open": 64037.24,
+        "price_high": 64494.5,
+        "price_low": 63531,
+        "price_close": 64157.01,
+        "volume_traded": 15784.086909999996,
+        "trades_count": 1539109
+    }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitFuture</title>
+</head>
+
+<body>
+    <?php
+    echo "Mayer Multiple é : " . $mayer_multiple;
+    ?>
+</body>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+            appId: "38490dbe-260c-4645-955d-96aa3b6a33ff",
+            safari_web_id: "web.onesignal.auto.4924b4f0-134c-425c-876d-dc71d8371c02",
+            notifyButton: {
+                enable: true,
+            },
+        });
+    });
+</script>
+
+</html>
