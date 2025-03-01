@@ -8,22 +8,59 @@
 </head>
 
 <body>
-    <?php
-    echo "Mayer Multiple é : " . $mayer_multiple;
-    ?>
+    <div class="menu">
+        <ul>
+            <li><a href="#">I want to receive notification</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="mayer">
+            <?php
+            echo "Mayer Multiple is : " . $mayer_multiple;
+            ?>
+        </div>
+    </div>
+
+
 </body>
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-<script>
-    window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-        await OneSignal.init({
-            appId: "38490dbe-260c-4645-955d-96aa3b6a33ff",
-            safari_web_id: "web.onesignal.auto.4924b4f0-134c-425c-876d-dc71d8371c02",
-            notifyButton: {
-                enable: true,
-            },
-        });
-    });
-</script>
+
 
 </html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        justify-items: center;
+    }
+
+    .menu li {
+        padding: 7px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .container .mayer {
+        font-size: 60px;
+        padding: 30px;
+    }
+
+    .mayer span {
+        color: green;
+    }
+</style>
